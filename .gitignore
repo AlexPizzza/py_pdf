@@ -10,3 +10,4 @@ scanned_pdfs/*
 helpers/Tesseract/
 helpers/Poppler/
 pdf_pages/
+final_pdfs/

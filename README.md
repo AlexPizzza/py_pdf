@@ -18,7 +18,7 @@ Before running file **'**main**.py'** or **'images_to_pdf.py'** you need to inst
 
 [Link to Tesseract](https://github.com/UB-Mannheim/tesseract/wiki)
 
-**_!! Install or move the Tesseract folder inside 'helpers' folder !!_**
+**_!! Install or move the Tesseract folder inside 'helpers' folder and name it 'Tesseract'!!_**
 
 #### Poppler
 
@@ -26,7 +26,7 @@ Before running file **'**main**.py'** or **'images_to_pdf.py'** you need to inst
 
 [Link to Poppler](https://blog.alivate.com.au/poppler-windows/)
 
-**_!! Install or Move the Poppler folder inside 'helpers' folder !!_**
+**_!! Install or Move the Poppler folder inside 'helpers' folder and name it 'Poppler'!!_**
 
 #### Python Tesseract
 
