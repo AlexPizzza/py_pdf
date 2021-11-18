@@ -1,0 +1,12 @@
+# Exclude pycache
+*.pyc
+
+# Exclude content of folders
+images/*
+final_pdfs/*
+scanned_pdfs/*
+
+# Exclude folder
+helpers/Tesseract/
+helpers/Poppler/
+pdf_pages/
