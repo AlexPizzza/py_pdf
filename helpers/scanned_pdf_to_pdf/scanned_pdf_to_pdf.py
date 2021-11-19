@@ -47,9 +47,6 @@ class ScannedPDFToPDF:
             self.pdfs_names = [os.path.basename(x) for x in self.pdfs]
             self.pdfs_names = [self.pdfs_names[i][:-4] for i in range(len(self.pdfs_names))]
             for pdf_name in self.pdfs_names:
-                if pdf_name[-1].isdigit():
-                    pdf_name = pdf_name[:-1]
-
                 if not os.path.exists(self.main_directory_path + f'\images\{pdf_name}'):
                     os.makedirs(self.main_directory_path +
                                 f'\images\{pdf_name}')
@@ -63,9 +60,6 @@ class ScannedPDFToPDF:
         for pdf_path in self.pdfs:
             pdf_name = os.path.basename(pdf_path)
             pdf_name = pdf_name[:-4]
-
-            if pdf_name[-1].isdigit():
-                pdf_name = pdf_name[:-1]
 
             info = pdfinfo_from_path(
                 pdf_path, userpw=None, poppler_path=poppler_path)
